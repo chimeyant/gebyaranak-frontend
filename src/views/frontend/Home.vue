@@ -91,7 +91,10 @@
                 @click="postRegister"
               >Kirim</v-btn>
             </v-col>
-            <v-col cols="12">
+            <v-col
+              cols="12"
+              v-show="false"
+            >
               <v-btn
                 color="red"
                 block
@@ -169,6 +172,7 @@ export default {
         this.snackbar.text = message;
         this.snackbar.state = true;
         window.open(path_download, "__BLANK");
+        this.$router.push({ name: "registrasi-berhasil" });
         this.record = {};
       } catch (error) {
         this.snackbar.color = "red";

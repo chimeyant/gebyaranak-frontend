@@ -6,6 +6,7 @@ import SignIn from "../views/frontend/SignIn.vue";
 import Login from "../views/frontend/Login.vue";
 //import Register from "../views/auth/Register.vue";
 import Home from "../views/frontend/Home.vue";
+import RegistrasiBerhasil from "../views/frontend/RegistrasiBerhasil.vue";
 import Repository from "../views/frontend/Repository.vue";
 
 //BASE APLIKASI
@@ -110,6 +111,11 @@ const routes = [
       { path: "", redirect: { name: "home" } },
       { path: "login", name: "login", component: Login },
       { path: "home", name: "home", component: Home },
+      {
+        path: "registrasi-berhasil",
+        name: "registrasi-berhasil",
+        component: RegistrasiBerhasil,
+      },
       { path: "repository", name: "repository", component: Repository },
     ],
   },

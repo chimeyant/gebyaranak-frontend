@@ -5,7 +5,7 @@ Template base
 
     <v-navigation-drawer
       v-model="drawer"
-      color="green"
+      color="red"
       :src="info.app_nav"
       class=""
       app
@@ -38,7 +38,7 @@ Template base
       <v-list
         dense
         nav
-        color="#2a726c"
+        color="white"
         style="height: 100vh;"
         class="overflow-y-auto rounded-tl-xl  elevation-10  pt-3 animate__animated animate__slideInUp"
         shaped
@@ -55,7 +55,7 @@ Template base
               <v-icon>{{ menu.icon }}</v-icon>
             </v-list-item-action>
             <v-list-item-content>
-              <v-list-item-title>{{ menu.title }}</v-list-item-title>
+              <v-list-item-title class="black--text">{{ menu.title }}</v-list-item-title>
             </v-list-item-content>
           </v-list-item>
 
@@ -68,22 +68,22 @@ Template base
           >
             <template v-slot:activator>
               <v-list-item-content>
-                <v-list-item-title>{{ menu.title }}</v-list-item-title>
+                <v-list-item-title class="black--text">{{ menu.title }}</v-list-item-title>
               </v-list-item-content>
             </template>
             <v-list-item
               v-for="(subItem,idx) in menu.submenus"
-              active-class="orange darken-4"
+              active-class="red darken-1 white--text"
               :to="subItem.route"
               :key="idx"
               v-if="subItem.type === 'item'"
               class="animate__animated animate__flipInY"
             >
               <v-list-item-action>
-                <v-icon class="">{{ subItem.icon }}</v-icon>
+                <v-icon class="black--text">{{ subItem.icon }}</v-icon>
               </v-list-item-action>
               <v-list-item-content>
-                <v-list-item-title>{{ subItem.title }}</v-list-item-title>
+                <v-list-item-title class="black--text">{{ subItem.title }}</v-list-item-title>
               </v-list-item-content>
             </v-list-item>
           </v-list-group>

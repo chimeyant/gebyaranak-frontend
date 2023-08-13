@@ -1,22 +1,17 @@
 <template>
   <v-container>
-    <v-row class="mt-10">
+    <v-row class="mt-16">
       <v-col
         cols="6"
         v-show="device.desktop"
       >
-        <v-row class="justify-center animated animate__fadeInLeft">
-
+        <v-row class="justify-center animated animate__fadeInLeft mt-10">
           <img
-            width="400"
-            height="200"
-            src="images/login.png"
+            width="250"
+            height="250"
+            src="images/logo78.png"
             alt=""
           >
-          <div class="mt-16 green--text font-weight-bold flex text-center">
-            "Inovasi adalah kunci untuk membuka pintu masa depan yang penuh dengan kemungkinan dan potensi." - Steve Jobs"
-          </div>
-
         </v-row>
       </v-col>
       <v-col

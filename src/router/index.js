@@ -20,6 +20,7 @@ import Dashboard from "../views/backend/pages/Dashboard.vue";
 
 //Master Data App
 import MasterAppInfo from "../views/backend/pages/masterdata/appinfo/Index.vue";
+import MasterDaftarPeserta from "../views/backend/pages/masterdata/daftarpeserta/Index.vue";
 import MasterDataProvinsi from "../views/backend/pages/masterdata/province/Index.vue";
 import MasterDataRegency from "../views/backend/pages/masterdata/regency/Index.vue";
 import MasterDataDistrict from "../views/backend/pages/masterdata/district/Index.vue";
@@ -158,160 +159,9 @@ const routes = [
         component: MasterAppInfo,
       },
       {
-        path: "master-data-province",
-        name: "master-data-province",
-        component: MasterDataProvinsi,
-      },
-      {
-        path: "master-data-regency/:province_code/:province_name",
-        name: "master-data-regency",
-        component: MasterDataRegency,
-      },
-      {
-        path:
-          "master-data-district/:province_code/:province_name/:regency_code/:regency_name",
-        name: "master-data-district",
-        component: MasterDataDistrict,
-      },
-      {
-        path:
-          "master-data-village/:province_code/:province_name/:regency_code/:regency_name/:district_code/:district_name",
-        name: "master-data-village",
-        component: MasterDataVillage,
-      },
-      {
-        path: "master-data-category",
-        name: "master-data-category",
-        component: MasterDataCatgeory,
-      },
-      {
-        path: "master-data-indikator",
-        name: "master-data-indikator",
-        component: MasterDataIndikator,
-      },
-      {
-        path: "master-data-indikator-pemda",
-        name: "master-data-indikator-pemda",
-        component: MasterDataIndikatorPemda,
-      },
-      {
-        path: "master-data-opd",
-        name: "master-data-opd",
-        component: MasterDataOpd,
-      },
-      {
-        path: "master-data-opd-provinsi",
-        name: "master-data-opd-provinsi",
-        component: MasterDataOpdProvinsi,
-      },
-      {
-        path: "master-data-opd-kabkota",
-        name: "master-data-opd-kabkota",
-        component: MasterDataOpdKankota,
-      },
-      {
-        path: "master-data-jenis-inovasi",
-        name: "master-data-jenis-inovasi",
-        component: MasterDataJenisInovasi,
-      },
-      {
-        path: "master-data-urusan",
-        name: "master-data-urusan",
-        component: MasterDataUrusan,
-      },
-      {
-        path: "master-data-bentuk",
-        name: "master-data-bentuk",
-        component: MasterDataBentuk,
-      },
-
-      //Route Profil
-      {
-        path: "permohonan-profile",
-        name: "permohonan-profile",
-        component: PermohonanProfile,
-      },
-      {
-        path:
-          "permohonan-profile-document/:profile_uuid/:indikator_pemda_uuid/:profile_indikator_uuid/:indikator_pemda_name",
-        name: "permohonan-profile-document",
-        component: PermohonanProfileDocument,
-      },
-      {
-        path: "permohonan-inovasi-admin",
-        name: "permohonan-inovasi-admin",
-        component: PermohonanAdminInovasi,
-      },
-
-      /**
-       * Route Verifikator
-       */
-      {
-        path: "permohonan-inovasi-verifikator",
-        name: "permohonan-inovasi-verifikator",
-        component: PermohonanVerifikatorInovasi,
-      },
-      {
-        path: "permohonan-inovasi-verifikator-verifikasi/:id",
-        name: "permohonan-inovasi-verifikator-verifikasi",
-        component: PermohonanVerifikatorVerifikasi,
-      },
-
-      /**
-       * Route Admin Publisher
-       */
-      {
-        path: "permohonan-inovasi-publisher",
-        name: "permohonan-inovasi-publisher",
-        component: PermohonanAdminPublisher,
-      },
-      {
-        path: "permohonan-inovasi-review/:id",
-        name: "permohonan-inovasi-review",
-        component: PermohonanAdminReview,
-      },
-
-      /**
-       * Route Admin Klinik Inovasi
-       */
-      {
-        path: "permohonan-message-admin",
-        name: "permohonan-message-admin",
-        component: PermohonanAdminMessage,
-      },
-
-      /**
-       * Route Permohonan Inovasi OPD
-       */
-      {
-        path: "permohonan-inovasi-opd",
-        name: "permohonan-inovasi-opd",
-        component: PermohonanOpdInovasi,
-      },
-      {
-        path: "permohonan-inovasi-opd-create",
-        name: "permohonan-inovasi-opd-create",
-        component: PermohonanOpdInovasiCreate,
-      },
-      {
-        path: "permohonan-inovasi-opd-indikator/:inovasi_uuid",
-        name: "permohonan-inovasi-opd-indikator",
-        component: PermohonanOpdInovasiIndkator,
-      },
-      {
-        path:
-          "permohonan-inovasi-opd-document/:inovasi_uuid/:indikator_uuid/:inovasi_indikator_uuid/:indikator_name",
-        name: "permohonan-inovasi-opd-document",
-        component: PermohonanOpdInovasiDocument,
-      },
-
-      /**
-       * route Opd Klinik Konsultasi
-       */
-      {
-        path: "permohonan-message",
-        name: "permohonan-message",
-        component: PermohonanOpdMessage,
+        path: "master-data-peserta",
+        name: "master-data-peserta",
+        component: MasterDaftarPeserta,
       },
 
       //Route slider

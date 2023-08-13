@@ -16,11 +16,12 @@
           >
         </v-row>
         <v-row class="justify-center mb-3">
-          <div class="subtitle-1 font-weight-bold">Formulir Daftar Peserta Gebyar Anak</div>
+          <div class="subtitle-1 font-weight-bold">Formulir Daftar Peserta </div>
         </v-row>
-        <v-row class="justify-center mb-2">
-          <div class="subtitle-1 font-weight-bold">Provinsi Banten</div>
+        <v-row class="justify-center mb-3">
+          <div class="subtitle-1 font-weight-bold">Gebyar Anak Banten Sehat Cerdas Ceria </div>
         </v-row>
+
         <v-card-text class="mb-2">
           <v-row>
             <v-col cols="12">

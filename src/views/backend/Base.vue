@@ -453,7 +453,7 @@ Template base
         width="100%"
         class="border-0"
         height="50"
-        color="#edf5f5"
+        color="red lighten-5"
       >
         <v-divider></v-divider>
 

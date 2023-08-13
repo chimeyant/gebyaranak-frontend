@@ -12,7 +12,10 @@
         </div>
       </div>
     </v-row>
-    <v-row class="pa-2">
+    <v-row
+      class="pa-2"
+      v-show="false"
+    >
       <v-col cols=8>
         <v-card class="rounded-0">
           <v-card-title
@@ -47,7 +50,10 @@
         </v-card>
       </v-col>
     </v-row>
-    <v-row class="pa-2">
+    <v-row
+      class="pa-2"
+      v-show="false"
+    >
       <v-col cols=12>
         <v-card class="rounded-0">
           <v-card-title
@@ -93,7 +99,10 @@
         </v-card>
       </v-col>
     </v-row>
-    <v-row class="pa-2">
+    <v-row
+      class="pa-2"
+      v-show="false"
+    >
       <v-col cols="12">
         <div class="text-center font-weight-regular ">Total Dan Data Kematangan Inovasi Dareah</div>
       </v-col>
@@ -299,7 +308,10 @@
 
     </v-row>
 
-    <v-row class="pa-2">
+    <v-row
+      class="pa-2"
+      v-show="false"
+    >
       <v-col cols="12">
         <div class="text-center font-weight-regular ">Total Dan Data Kematangan Inovasi Pemeintah Daerah Tingkat I </div>
       </v-col>
@@ -505,7 +517,10 @@
 
     </v-row>
 
-    <v-row class="pa-2">
+    <v-row
+      class="pa-2"
+      v-show="false"
+    >
       <v-col cols="12">
         <div class="text-center font-weight-regular ">Total Dan Data Kematangan Inovasi Pemerintah Daerah Tingkat II</div>
       </v-col>

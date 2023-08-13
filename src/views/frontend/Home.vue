@@ -109,7 +109,7 @@
           <div
             style="font-size: 8pt;"
             class="grey--text"
-          >Provinsi Banten copyright &copy; 2023 </div>
+          >DISKOMINFO PROVINSI BANTEN copyright &copy; 2023 </div>
         </v-row>
       </v-card>
     </div>

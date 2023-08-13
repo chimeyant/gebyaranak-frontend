@@ -46,13 +46,13 @@ Template base
 
         <template v-for="(menu, index) in menus">
           <v-list-item
-            active-class="orange darken-4"
+            active-class="orange lighten-4"
             :to="menu.route"
             :key="index"
             v-if="menu.type === 'item'"
           >
-            <v-list-item-action>
-              <v-icon>{{ menu.icon }}</v-icon>
+            <v-list-item-action active-class="white--text">
+              <v-icon class="red--text">{{ menu.icon }}</v-icon>
             </v-list-item-action>
             <v-list-item-content>
               <v-list-item-title class="black--text">{{ menu.title }}</v-list-item-title>
@@ -73,14 +73,14 @@ Template base
             </template>
             <v-list-item
               v-for="(subItem,idx) in menu.submenus"
-              active-class="red darken-1 white--text"
+              active-class="orange lighten-4 white--text"
               :to="subItem.route"
               :key="idx"
               v-if="subItem.type === 'item'"
               class="animate__animated animate__flipInY"
             >
               <v-list-item-action>
-                <v-icon class="black--text">{{ subItem.icon }}</v-icon>
+                <v-icon class="red--text">{{ subItem.icon }}</v-icon>
               </v-list-item-action>
               <v-list-item-content>
                 <v-list-item-title class="black--text">{{ subItem.title }}</v-list-item-title>
@@ -142,7 +142,7 @@ Template base
         class=""
       >
         <v-icon
-          color="orange darken-1"
+          color="red darken-1"
           class=""
         >mdi-bell-outline</v-icon>
       </v-btn>

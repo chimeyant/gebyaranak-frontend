@@ -40,7 +40,7 @@
           <div
             style="font-size: 8pt;"
             class="grey--text"
-          >DISKOMINO PROVINSI BANTEN &copy; 2023 </div>
+          >DISKOMINFO PROVINSI BANTEN &copy; 2023 </div>
         </v-row>
       </v-card>
     </div>

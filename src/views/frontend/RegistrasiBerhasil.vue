@@ -16,7 +16,7 @@
           >
         </v-row>
         <v-row class="justify-center mb-3">
-          <div class="subtitle-1 font-weight-bold">Pemeberitahuan</div>
+          <div class="subtitle-1 font-weight-bold">Pemberitahuan</div>
         </v-row>
 
         <v-card-text class="mb-2">

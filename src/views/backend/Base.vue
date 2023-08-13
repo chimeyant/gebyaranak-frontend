@@ -111,8 +111,8 @@ Template base
         small
       ></v-app-bar-nav-icon>
       <img
-        src="/images/logo.png"
-        width="75"
+        src="/images/logo78.png"
+        width="32"
         height="32px"
         alt=""
         :class="device.desktop ? `ml-2 mr-2 `:`ml-2 mr-2 `"

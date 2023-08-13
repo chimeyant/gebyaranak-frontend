@@ -1102,9 +1102,7 @@ export default new Vuex.Store({
         if (status === 500) {
           commit("SNACKBAR_MUTATION", {
             color: "error",
-            text:
-              "Opps..., Terjadi kesalahan di server, silahkan kembali beberapa saat kemudian  " +
-              response,
+            text: message,
             state: true,
           });
         }

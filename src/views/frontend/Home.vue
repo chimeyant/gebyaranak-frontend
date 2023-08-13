@@ -176,9 +176,7 @@ export default {
         this.$router.push({ name: "registrasi-berhasil" });
         this.record = {};
       } catch (error) {
-        this.snackbar.color = "red";
-        this.snackbar.text = "Opps..., terjadi kesalahan";
-        this.snackbar.state = true;
+        this.catchError(error);
       }
     },
   },
